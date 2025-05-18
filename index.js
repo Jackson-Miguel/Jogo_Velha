@@ -336,3 +336,13 @@ l9.addEventListener("click", function () {
 });
 }
 }
+
+const imagens = document.querySelectorAll('img');
+let todasComImagem = true;
+
+imagens.forEach(img => {
+  if (!imagens.getAttribute('src') || imagens.getAttribute('src').trim() === '') {
+    todasComImagem = false;
+    window.alert("tudo ja foi preenchido")
+  }
+});
