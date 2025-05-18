@@ -1,3 +1,60 @@
 #base{
-    border: 1px solid;
+    height: 36.4vw;
+    width: 36.4vw;
+    justify-self: center;
+}
+#p1{
+display: flex;
+}
+#l1{
+    height: 12vw;
+    width: 12vw;
+    border: 1px solid;  
+}
+#l2{
+    height: 12vw;
+    width: 12vw;
+    border: 1px solid;  
+}
+#l3{
+    height: 12vw;
+    width: 12vw;
+    border: 1px solid;  
+}
+#p2{
+display: flex;
+}
+#l4{
+    height: 12vw;
+    width: 12vw;
+    border: 1px solid;  
+}
+#l5{
+    height: 12vw;
+    width: 12vw;
+    border: 1px solid;  
+}
+
+#l6{
+    height: 12vw;
+    width: 12vw;
+    border: 1px solid;  
+}
+#p3{
+display: flex;
+}
+#l7{
+    height: 12vw;
+    width: 12vw;
+    border: 1px solid;  
+}
+#l8{
+    height: 12vw;
+    width: 12vw;
+    border: 1px solid;  
+}
+#l9{
+    height: 12vw;
+    width: 12vw;
+    border: 1px solid;  
 }
