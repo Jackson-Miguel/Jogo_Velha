@@ -58,3 +58,14 @@ display: flex;
     width: 12vw;
     border: 1px solid;  
 }
+button{
+    height: 12vw;
+    width: 12vw;
+    background-color: white;
+    box-shadow: 0px 0px 0px 0px;
+}
+p{
+    font-size: 5vw;
+    margin-top: 2vw;
+    text-align: center;
+}
