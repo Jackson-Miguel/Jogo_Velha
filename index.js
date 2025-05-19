@@ -286,16 +286,45 @@ if(vez.innerText == "Vez do X"){
     div_l9.appendChild(imagem);
     vez.textContent = "Vez do X";
 }}
-var mat = new Array(9).fill(null);
-var imgs = 0
-const botoes = document.querySelectorAll('#base button'); 
+let img = 0; // contador de jogadas
+const botoes = document.querySelectorAll('#base button');
+const valores = Array(9).fill(null); // tabuleiro: 9 posições vazias
+let jogadorAtual = "X"; // começa o jogador X
+
+// Todas as combinações ganhadoras possíveis (índices do array)
+const combinacoesGanhadoras = [
+  [0,1,2], [3,4,5], [6,7,8], // linhas
+  [0,3,6], [1,4,7], [2,5,8], // colunas
+  [0,4,8], [2,4,6]           // diagonais
+];
+
 botoes.forEach((botao, index) => {
   botao.addEventListener('click', () => {
-      imgs++
-        if(imgs == 9){
-      vez.textContent = "Gato ganhou"
+
+    if(valores[index]) return;
+
+    valores[index] = jogadorAtual;
+    botao.textContent = jogadorAtual;
+
+    img++;
+    if (verificarVitoria(jogadorAtual)) {
+      vez.textContent = `Jogador ${jogadorAtual} ganhou!`;
+      botoes.forEach(b => b.disabled = true);
+      return;
     }
+    if (img === 9) {
+      vez.textContent = "Empate!";
+      return;
+    }
+
+    jogadorAtual = jogadorAtual === "X" ? "O" : "X";
+  
   });
 });
 
+function verificarVitoria(jogador) {
+  return combinacoesGanhadoras.some(combinacao => {
+    return combinacao.every(pos => valores[pos] === jogador);
+  });
+}
 
