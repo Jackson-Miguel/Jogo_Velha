@@ -1,3 +1,24 @@
+var coma = document.getElementById("come")
+window.onload = function(){
+ const botoes = document.querySelectorAll("#base button");
+    botoes.forEach(botao => botao.disabled = true);
+    coma.createElement("button");
+    com.disabled = false
+}
+function com(){
+    const botoes = document.querySelectorAll("button");
+    botoes.forEach(botao => botao.disabled = false);
+    const estaAtivo = Array.from(botoes).some(botao => botao !== coma && !botao.disabled);
+    coma.remove();
+    vez.textContent = "Vez do X"
+}
+const rese = document.getElementById("btn_res");
+
+function res(){
+  localStorage.setItem("placarX", num1.innerText);
+  localStorage.setItem("placarO", num2.innerText);
+  location.reload();
+}
 function add1(){
   var l1 = document.getElementById("btn_1");
   var div_l1 = document.getElementById("l1");
@@ -286,16 +307,15 @@ if(vez.innerText == "Vez do X"){
     div_l9.appendChild(imagem);
     vez.textContent = "Vez do X";
 }}
-let img = 0; // contador de jogadas
+let img = 0; 
 const botoes = document.querySelectorAll('#base button');
-const valores = Array(9).fill(null); // tabuleiro: 9 posições vazias
-let jogadorAtual = "X"; // começa o jogador X
+const valores = Array(9).fill(null); 
+let jogadorAtual = "X";
 
-// Todas as combinações ganhadoras possíveis (índices do array)
 const combinacoesGanhadoras = [
-  [0,1,2], [3,4,5], [6,7,8], // linhas
-  [0,3,6], [1,4,7], [2,5,8], // colunas
-  [0,4,8], [2,4,6]           // diagonais
+  [0,1,2], [3,4,5], [6,7,8], 
+  [0,3,6], [1,4,7], [2,5,8], 
+  [0,4,8], [2,4,6]           
 ];
 
 botoes.forEach((botao, index) => {
@@ -309,6 +329,15 @@ botoes.forEach((botao, index) => {
     img++;
     if (verificarVitoria(jogadorAtual)) {
       vez.textContent = `Jogador ${jogadorAtual} ganhou!`;
+      const num1 = document.getElementById("num1");
+      const num2 = document.getElementById("num2");
+  if (jogadorAtual === "X") {
+    rese.style.display = "block"
+    num1.innerText = Number(num1.innerText) + 1;
+  } else {
+    rese.style.display = "block"
+    num2.innerText = Number(num2.innerText) + 1;
+  }
       botoes.forEach(b => b.disabled = true);
       return;
     }
@@ -327,4 +356,7 @@ function verificarVitoria(jogador) {
     return combinacao.every(pos => valores[pos] === jogador);
   });
 }
-
+window.addEventListener("load", () => {
+  num1.innerText = localStorage.getItem("placarX") || "0";
+  num2.innerText = localStorage.getItem("placarO") || "0";
+});
