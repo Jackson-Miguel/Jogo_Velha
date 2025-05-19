@@ -285,16 +285,17 @@ if(vez.innerText == "Vez do X"){
     imagem.style.height = "10vw";
     div_l9.appendChild(imagem);
     vez.textContent = "Vez do X";
-}
-}
-
-const botoes = document.querySelectorAll('#base button');
+}}
+var mat = new Array(9).fill(null);
 var imgs = 0
-botoes.forEach(botao => {
+const botoes = document.querySelectorAll('#base button'); 
+botoes.forEach((botao, index) => {
   botao.addEventListener('click', () => {
-    imgs++
-    if(imgs == 9){
-      vez.textContent = "Cabou"
+      imgs++
+        if(imgs == 9){
+      vez.textContent = "Gato ganhou"
     }
   });
 });
+
+
