@@ -31,9 +31,8 @@ if(vez.innerText == "Vez do X"){
     imagem.style.display = "block";
     imagem.style.justifySelf = "center";
     imagem.style.alignSelf = "center";
-    imagem.style.marginTop = "1vw";
-    imagem.style.width = "10vw";
-    imagem.style.height = "10vw";
+    imagem.style.width = "12vw";
+    imagem.style.height = "12vw";
     div_l1.appendChild(imagem);
     vez.textContent = "Vez do Circulo";
 }else{
@@ -44,9 +43,8 @@ if(vez.innerText == "Vez do X"){
   imagem.style.display = "block";
   imagem.style.justifySelf = "center";
   imagem.style.alignSelf = "center";
-  imagem.style.marginTop = "1vw"
-  imagem.style.width = "10vw";
-  imagem.style.height = "10vw";
+  imagem.style.width = "12vw";
+  imagem.style.height = "12vw";
   div_l1.appendChild(imagem);
   vez.textContent = "Vez do X";
 }}
@@ -63,9 +61,8 @@ if(vez.innerText == "Vez do X"){
     imagem.style.display = "block";
     imagem.style.justifySelf = "center";
     imagem.style.alignSelf = "center";
-    imagem.style.marginTop = "1vw";
-    imagem.style.width = "10vw";
-    imagem.style.height = "10vw";
+    imagem.style.width = "12vw";
+    imagem.style.height = "12vw";
     div_l2.appendChild(imagem);
     vez.textContent = "Vez do Circulo";
 }else{
@@ -76,9 +73,8 @@ if(vez.innerText == "Vez do X"){
   imagem.style.display = "block";
   imagem.style.justifySelf = "center";
   imagem.style.alignSelf = "center";
-  imagem.style.marginTop = "1vw";
-  imagem.style.width = "10vw";
-  imagem.style.height = "10vw";
+  imagem.style.width = "12vw";
+  imagem.style.height = "12vw";
   div_l2.appendChild(imagem);
   vez.textContent = "Vez do X";
 }}
@@ -95,9 +91,8 @@ if(vez.innerText == "Vez do X"){
   imagem.style.display = "block";
   imagem.style.justifySelf = "center";
   imagem.style.alignSelf = "center";
-  imagem.style.marginTop = "1vw";
-  imagem.style.width = "10vw";
-  imagem.style.height = "10vw";
+  imagem.style.width = "12vw";
+  imagem.style.height = "12vw";
   div_l3.appendChild(imagem);
   vez.textContent = "Vez do Circulo";
 
@@ -109,9 +104,8 @@ if(vez.innerText == "Vez do X"){
   imagem.style.display = "block";
   imagem.style.justifySelf = "center";
   imagem.style.alignSelf = "center";
-  imagem.style.marginTop = "1vw";
-  imagem.style.width = "10vw";
-  imagem.style.height = "10vw";
+  imagem.style.width = "12vw";
+  imagem.style.height = "12vw";
   div_l3.appendChild(imagem);
   vez.textContent = "Vez do X";
 }}
@@ -128,9 +122,8 @@ if(vez.innerText == "Vez do X"){
     imagem.style.display = "block";
     imagem.style.justifySelf = "center";
     imagem.style.alignSelf = "center";
-    imagem.style.marginTop = "1vw";
-    imagem.style.width = "10vw";
-    imagem.style.height = "10vw";
+    imagem.style.width = "12vw";
+    imagem.style.height = "12vw";
     div_l4.appendChild(imagem);
     vez.textContent = "Vez do Circulo";
 }else{
@@ -141,9 +134,8 @@ if(vez.innerText == "Vez do X"){
   imagem.style.display = "block";
   imagem.style.justifySelf = "center";
   imagem.style.alignSelf = "center";
-  imagem.style.marginTop = "1vw";
-  imagem.style.width = "10vw";
-  imagem.style.height = "10vw";
+  imagem.style.width = "12vw";
+  imagem.style.height = "12vw";
   div_l4.appendChild(imagem);
   vez.textContent = "Vez do X";
 }}
@@ -160,9 +152,8 @@ if(vez.innerText == "Vez do X"){
     imagem.style.display = "block";
     imagem.style.justifySelf = "center";
     imagem.style.alignSelf = "center";
-    imagem.style.marginTop = "1vw";
-    imagem.style.width = "10vw";
-    imagem.style.height = "10vw";
+    imagem.style.width = "12vw";
+    imagem.style.height = "12vw";
     div_l5.appendChild(imagem);
     vez.textContent = "Vez do Circulo";
 }else{
@@ -173,9 +164,8 @@ if(vez.innerText == "Vez do X"){
   imagem.style.display = "block";
   imagem.style.justifySelf = "center";
   imagem.style.alignSelf = "center";
-  imagem.style.marginTop = "1vw";
-  imagem.style.width = "10vw";
-  imagem.style.height = "10vw";
+  imagem.style.width = "12vw";
+  imagem.style.height = "12vw";
   div_l5.appendChild(imagem);
   vez.textContent = "Vez do X";
 }}
@@ -192,9 +182,8 @@ if(vez.innerText == "Vez do X"){
     imagem.style.display = "block";
     imagem.style.justifySelf = "center";
     imagem.style.alignSelf = "center";
-    imagem.style.marginTop = "1vw";
-    imagem.style.width = "10vw";
-    imagem.style.height = "10vw";
+    imagem.style.width = "12vw";
+    imagem.style.height = "12vw";
     div_l6.appendChild(imagem);
     vez.textContent = "Vez do Circulo";
 }else{
@@ -205,9 +194,8 @@ if(vez.innerText == "Vez do X"){
   imagem.style.display = "block";
   imagem.style.justifySelf = "center";
   imagem.style.alignSelf = "center";
-  imagem.style.marginTop = "1vw";
-  imagem.style.width = "10vw";
-  imagem.style.height = "10vw";
+  imagem.style.width = "12vw";
+  imagem.style.height = "12vw";
   div_l6.appendChild(imagem);
   vez.textContent = "Vez do X";
 }}
@@ -224,9 +212,8 @@ if(vez.innerText == "Vez do X"){
     imagem.style.display = "block";
     imagem.style.justifySelf = "center";
     imagem.style.alignSelf = "center";
-    imagem.style.marginTop = "1vw";
-    imagem.style.width = "10vw";
-    imagem.style.height = "10vw";
+    imagem.style.width = "12vw";
+    imagem.style.height = "12vw";
     div_l7.appendChild(imagem);
     vez.textContent = "Vez do Circulo";
 }else{
@@ -237,9 +224,8 @@ if(vez.innerText == "Vez do X"){
   imagem.style.display = "block";
   imagem.style.justifySelf = "center";
   imagem.style.alignSelf = "center";
-  imagem.style.marginTop = "1vw";
-  imagem.style.width = "10vw";
-  imagem.style.height = "10vw";
+  imagem.style.width = "12vw";
+  imagem.style.height = "12vw";
   div_l7.appendChild(imagem);
   vez.textContent = "Vez do X";
 }}
@@ -256,9 +242,8 @@ if(vez.innerText == "Vez do X"){
     imagem.style.display = "block";
     imagem.style.justifySelf = "center";
     imagem.style.alignSelf = "center";
-    imagem.style.marginTop = "1vw";
-    imagem.style.width = "10vw";
-    imagem.style.height = "10vw";
+    imagem.style.width = "12vw";
+    imagem.style.height = "12vw";
     div_l8.appendChild(imagem);
     vez.textContent = "Vez do Circulo";
 }else{
@@ -269,9 +254,8 @@ if(vez.innerText == "Vez do X"){
     imagem.style.display = "block";
     imagem.style.justifySelf = "center";
     imagem.style.alignSelf = "center";
-    imagem.style.marginTop = "1vw";
-    imagem.style.width = "10vw";
-    imagem.style.height = "10vw";
+    imagem.style.width = "12vw";
+    imagem.style.height = "12vw";
     div_l8.appendChild(imagem);
     vez.textContent = "Vez do X";
 }}
@@ -288,9 +272,8 @@ if(vez.innerText == "Vez do X"){
     imagem.style.display = "block";
     imagem.style.justifySelf = "center";
     imagem.style.alignSelf = "center";
-    imagem.style.marginTop = "1vw";
-    imagem.style.width = "10vw";
-    imagem.style.height = "10vw";
+    imagem.style.width = "12vw";
+    imagem.style.height = "12vw";
     div_l9.appendChild(imagem);
     vez.textContent = "Vez do Circulo";
 }else{
@@ -301,9 +284,8 @@ if(vez.innerText == "Vez do X"){
     imagem.style.display = "block";
     imagem.style.justifySelf = "center";
     imagem.style.alignSelf = "center";
-    imagem.style.marginTop = "1vw";
-    imagem.style.width = "10vw";
-    imagem.style.height = "10vw";
+    imagem.style.width = "12vw";
+    imagem.style.height = "12vw";
     div_l9.appendChild(imagem);
     vez.textContent = "Vez do X";
 }}
@@ -341,8 +323,16 @@ botoes.forEach((botao, index) => {
       botoes.forEach(b => b.disabled = true);
       return;
     }
+    if (Number(num1.innerText) >= 3 || Number(num2.innerText) >= 3) {
+        alert(`Jogador ${jogadorAtual} venceu a melhor de 5! Placar será resetado.`);
+        setTimeout(function(){location.reload();}, 1000)
+        localStorage.setItem("placarX", "0");
+        localStorage.setItem("placarO", "0");
+        
+    }
     if (img === 9) {
       vez.textContent = "Empate!";
+      rese.style.display = "block"
       return;
     }
 
