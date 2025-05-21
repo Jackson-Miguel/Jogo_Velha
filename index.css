@@ -4,46 +4,41 @@
     justify-self: center;
     justify-items: center;
 }
+.celula {
+  height: 12vw;
+  width: 12vw;
+}
 #p1, #p2, #p3{
 display: flex;
 }
-#l1{
-    height: 12vw;
-    width: 12vw;
-    border: 1px solid;
-    border-top: none;
-    border-left: none;
+#l1 {
+  border-bottom: 1px solid;
+  border-right: 1px solid;
 }
-#l2, #l4, #l6, #l8{
-    height: 12vw;
-    width: 12vw;
-    border: none;
+#l2 {
+  border-bottom: 1px solid;
 }
-#l3{
-    height: 12vw;
-    width: 12vw;
-    border: 1px solid;
-    border-top: none;
-    border-right: none;
+#l3 {
+  border-bottom: 1px solid;
+  border-left: 1px solid;
 }
-#l5{
-    height: 12vw;
-    width: 12vw;
-    border: 1px solid;
+#l4 {
+  border-right: 1px solid;
 }
-#l7{
-    height: 12vw;
-    width: 12vw;
-    border: 1px solid;
-    border-left: none;
-    border-bottom: none;
+
+#l6 {
+  border-left: 1px solid;
 }
-#l9{
-    height: 12vw;
-    width: 12vw;
-    border: 1px solid;
-    border-right: none;
-    border-bottom: none;
+#l7 {
+  border-top: 1px solid;
+  border-right: 1px solid;
+}
+#l8 {
+  border-top: 1px solid;
+}
+#l9 {
+  border-top: 1px solid;
+  border-left: 1px solid;
 }
 button{
     height: 12vw;
