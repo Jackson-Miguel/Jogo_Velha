@@ -43,8 +43,9 @@ if(vez.innerText == "Vez do X"){
   imagem.style.display = "block";
   imagem.style.justifySelf = "center";
   imagem.style.alignSelf = "center";
-  imagem.style.width = "12vw";
-  imagem.style.height = "12vw";
+  imagem.style.marginTop = "1vw";
+  imagem.style.width = "10vw";
+  imagem.style.height = "10vw";
   div_l1.appendChild(imagem);
   vez.textContent = "Vez do X";
 }}
@@ -73,8 +74,9 @@ if(vez.innerText == "Vez do X"){
   imagem.style.display = "block";
   imagem.style.justifySelf = "center";
   imagem.style.alignSelf = "center";
-  imagem.style.width = "12vw";
-  imagem.style.height = "12vw";
+  imagem.style.marginTop = "1vw";
+  imagem.style.width = "10vw";
+  imagem.style.height = "10vw";
   div_l2.appendChild(imagem);
   vez.textContent = "Vez do X";
 }}
@@ -104,8 +106,9 @@ if(vez.innerText == "Vez do X"){
   imagem.style.display = "block";
   imagem.style.justifySelf = "center";
   imagem.style.alignSelf = "center";
-  imagem.style.width = "12vw";
-  imagem.style.height = "12vw";
+  imagem.style.marginTop = "1vw";
+  imagem.style.width = "10vw";
+  imagem.style.height = "10vw";
   div_l3.appendChild(imagem);
   vez.textContent = "Vez do X";
 }}
@@ -134,8 +137,9 @@ if(vez.innerText == "Vez do X"){
   imagem.style.display = "block";
   imagem.style.justifySelf = "center";
   imagem.style.alignSelf = "center";
-  imagem.style.width = "12vw";
-  imagem.style.height = "12vw";
+  imagem.style.marginTop = "1vw";
+  imagem.style.width = "10vw";
+  imagem.style.height = "10vw";
   div_l4.appendChild(imagem);
   vez.textContent = "Vez do X";
 }}
@@ -164,8 +168,9 @@ if(vez.innerText == "Vez do X"){
   imagem.style.display = "block";
   imagem.style.justifySelf = "center";
   imagem.style.alignSelf = "center";
-  imagem.style.width = "12vw";
-  imagem.style.height = "12vw";
+  imagem.style.marginTop = "1vw";
+  imagem.style.width = "10vw";
+  imagem.style.height = "10vw";
   div_l5.appendChild(imagem);
   vez.textContent = "Vez do X";
 }}
@@ -194,8 +199,9 @@ if(vez.innerText == "Vez do X"){
   imagem.style.display = "block";
   imagem.style.justifySelf = "center";
   imagem.style.alignSelf = "center";
-  imagem.style.width = "12vw";
-  imagem.style.height = "12vw";
+  imagem.style.marginTop = "1vw";
+  imagem.style.width = "10vw";
+  imagem.style.height = "10vw";
   div_l6.appendChild(imagem);
   vez.textContent = "Vez do X";
 }}
@@ -224,8 +230,9 @@ if(vez.innerText == "Vez do X"){
   imagem.style.display = "block";
   imagem.style.justifySelf = "center";
   imagem.style.alignSelf = "center";
-  imagem.style.width = "12vw";
-  imagem.style.height = "12vw";
+  imagem.style.marginTop = "1vw";
+  imagem.style.width = "10vw";
+  imagem.style.height = "10vw";
   div_l7.appendChild(imagem);
   vez.textContent = "Vez do X";
 }}
@@ -254,8 +261,9 @@ if(vez.innerText == "Vez do X"){
     imagem.style.display = "block";
     imagem.style.justifySelf = "center";
     imagem.style.alignSelf = "center";
-    imagem.style.width = "12vw";
-    imagem.style.height = "12vw";
+    imagem.style.marginTop = "1vw";
+    imagem.style.width = "10vw";
+    imagem.style.height = "10vw";
     div_l8.appendChild(imagem);
     vez.textContent = "Vez do X";
 }}
@@ -284,8 +292,9 @@ if(vez.innerText == "Vez do X"){
     imagem.style.display = "block";
     imagem.style.justifySelf = "center";
     imagem.style.alignSelf = "center";
-    imagem.style.width = "12vw";
-    imagem.style.height = "12vw";
+    imagem.style.marginTop = "1vw";
+    imagem.style.width = "10vw";
+    imagem.style.height = "10vw";
     div_l9.appendChild(imagem);
     vez.textContent = "Vez do X";
 }}
